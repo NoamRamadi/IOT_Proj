@@ -19,7 +19,7 @@ r = random.randrange(1, 10000000)
 clientname = "IOT_client-Id234-" + str(r)
 DHT_topic = 'pr/home/5976397/sts'
 update_rate = 5000  # in msec
-max_valume_can = 2000
+max_valume_can = 1000
 valume_current = max_valume_can
 ValumePercent = 100
 
